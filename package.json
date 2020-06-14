@@ -1,0 +1,24 @@
+{
+  "name": "hero-bartswebdesign",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver watch:sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BartsWebdevelopment/hero-bartswebdesign.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BartsWebdevelopment/hero-bartswebdesign/issues"
+  },
+  "homepage": "https://github.com/BartsWebdevelopment/hero-bartswebdesign#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

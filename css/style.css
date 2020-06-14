@@ -1,0 +1,109 @@
+*,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  padding: 3rem; }
+
+.header {
+  position: relative; }
+  .header__dune-image {
+    height: 95vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+    background-image: linear-gradient(to right bottom, rgba(0, 150, 219, 0.55), rgba(47, 58, 117, 0.55)), url("../img/hero-section-dunes_skjoic_c_scale,w_200.jpg");
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
+    @media only screen and (min-width: 27.25em) {
+      .header__dune-image {
+        background-image: linear-gradient(to right bottom, rgba(0, 150, 219, 0.55), rgba(47, 58, 117, 0.55)), url("../img/hero-section-dunes_skjoic_c_scale,w_436.jpg"); } }
+    @media only screen and (min-width: 37.12em) {
+      .header__dune-image {
+        background-image: linear-gradient(to right bottom, rgba(0, 150, 219, 0.55), rgba(47, 58, 117, 0.55)), url("../img/hero-section-dunes_skjoic_c_scale,w_594.jpg"); } }
+    @media only screen and (min-width: 46.2em) {
+      .header__dune-image {
+        background-image: linear-gradient(to right bottom, rgba(0, 150, 219, 0.55), rgba(47, 58, 117, 0.55)), url("../img/hero-section-dunes_skjoic_c_scale,w_739.jpg"); } }
+    @media only screen and (min-width: 52.9em) {
+      .header__dune-image {
+        background-image: linear-gradient(to right bottom, rgba(0, 150, 219, 0.55), rgba(47, 58, 117, 0.55)), url("../img/hero-section-dunes_skjoic_c_scale,w_846.jpg");
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); } }
+    @media only screen and (min-width: 59em) {
+      .header__dune-image {
+        background-image: linear-gradient(to right bottom, rgba(0, 150, 219, 0.55), rgba(47, 58, 117, 0.55)), url("../img/hero-section-dunes_skjoic_c_scale,w_945.jpg"); } }
+    @media only screen and (min-width: 64.6em) {
+      .header__dune-image {
+        background-image: linear-gradient(to right bottom, rgba(0, 150, 219, 0.55), rgba(47, 58, 117, 0.55)), url("../img/hero-section-dunes_skjoic_c_scale,w_1033.jpg"); } }
+    @media only screen and (min-width: 69.4em) {
+      .header__dune-image {
+        background-image: linear-gradient(to right bottom, rgba(0, 150, 219, 0.55), rgba(47, 58, 117, 0.55)), url("../img/hero-section-dunes_skjoic_c_scale,w_1111.jpg"); } }
+    @media only screen and (min-width: 74.9em) {
+      .header__dune-image {
+        background-image: linear-gradient(to right bottom, rgba(0, 150, 219, 0.55), rgba(47, 58, 117, 0.55)), url("../img/hero-section-dunes_skjoic_c_scale,w_1198.jpg"); } }
+    @media only screen and (min-width: 79.7em) {
+      .header__dune-image {
+        background-image: linear-gradient(to right bottom, rgba(0, 150, 219, 0.55), rgba(47, 58, 117, 0.55)), url("../img/hero-section-dunes_skjoic_c_scale,w_1275.jpg"); } }
+    @media only screen and (min-width: 83.7em) {
+      .header__dune-image {
+        background-image: linear-gradient(to right bottom, rgba(0, 150, 219, 0.55), rgba(47, 58, 117, 0.55)), url("../img/hero-section-dunes_skjoic_c_scale,w_1339.jpg"); } }
+    @media only screen and (min-width: 87.4em) {
+      .header__dune-image {
+        background-image: linear-gradient(to right bottom, rgba(0, 150, 219, 0.55), rgba(47, 58, 117, 0.55)), url("../img/hero-section-dunes_skjoic_c_scale,w_1398.jpg"); } }
+    @media only screen and (min-width: 87.5em) {
+      .header__dune-image {
+        background-image: linear-gradient(to right bottom, rgba(0, 150, 219, 0.55), rgba(47, 58, 117, 0.55)), url("../img/hero-section-dunes_skjoic_c_scale,w_1400.jpg"); } }
+  .header__code-image {
+    height: 95vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/hero-section-dunes_skjoic_c_scale,w_200.jpg");
+    transform: translateY(-100%); }
+    @media only screen and (min-width: 27.25em) {
+      .header__code-image {
+        background-image: url("../img/hero-section-dunes_skjoic_c_scale,w_436.jpg"); } }
+    @media only screen and (min-width: 37.12em) {
+      .header__code-image {
+        background-image: url("../img/hero-section-dunes_skjoic_c_scale,w_594.jpg"); } }
+    @media only screen and (min-width: 46.2em) {
+      .header__code-image {
+        background-image: url("../img/hero-section-dunes_skjoic_c_scale,w_739.jpg"); } }
+    @media only screen and (min-width: 52.9em) {
+      .header__code-image {
+        background-image: url("../img/hero-section-dunes_skjoic_c_scale,w_846.jpg"); } }
+    @media only screen and (min-width: 59em) {
+      .header__code-image {
+        background-image: url("../img/hero-section-dunes_skjoic_c_scale,w_945.jpg"); } }
+    @media only screen and (min-width: 64.6em) {
+      .header__code-image {
+        background-image: url("../img/hero-section-dunes_skjoic_c_scale,w_1033.jpg"); } }
+    @media only screen and (min-width: 69.4em) {
+      .header__code-image {
+        background-image: url("../img/hero-section-dunes_skjoic_c_scale,w_1111.jpg"); } }
+    @media only screen and (min-width: 74.9em) {
+      .header__code-image {
+        background-image: url("../img/hero-section-dunes_skjoic_c_scale,w_1198.jpg"); } }
+    @media only screen and (min-width: 79.7em) {
+      .header__code-image {
+        background-image: url("../img/hero-section-dunes_skjoic_c_scale,w_1275.jpg"); } }
+    @media only screen and (min-width: 83.7em) {
+      .header__code-image {
+        background-image: url("../img/hero-section-dunes_skjoic_c_scale,w_1339.jpg"); } }
+    @media only screen and (min-width: 87.4em) {
+      .header__code-image {
+        background-image: url("../img/hero-section-dunes_skjoic_c_scale,w_1398.jpg"); } }
+    @media only screen and (min-width: 87.5em) {
+      .header__code-image {
+        background-image: url("../img/hero-section-dunes_skjoic_c_scale,w_1400.jpg"); } }

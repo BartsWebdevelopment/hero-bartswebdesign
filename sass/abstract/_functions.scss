@@ -1,0 +1,31 @@
+// COLORS
+$color-primary: #1129A8;
+$color-primary-light: #0096DB;;
+$color-primary-dark: #2F3A75;
+
+$color-secundary-light: #E07B38;
+$color-secundary-dark: #A83711;
+
+$color-grey-light-1: #f7f7f7;
+$color-grey-light-2: #eee;
+
+
+$color-grey-dark: #777;
+$color-grey-dark-2: #999;
+$color-grey-dark-3: #333;
+
+
+$color-white: #ffffff;
+$color-black: #000;
+
+// FONT
+$default-font-size: 1.6rem;
+
+//LINEAR GRADIENT
+$hero-gradient: linear-gradient(to right bottom,
+        rgba($color-primary-light,.55),
+        rgba($color-primary-dark, .55));
+
+//POLYGON CLIP PATH
+$clip-path-small-screen: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+$clip-path-big-screen: polygon(0 0, 100% 0, 100% 100%, 0% 100%);

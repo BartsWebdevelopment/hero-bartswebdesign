@@ -1,0 +1,126 @@
+.header {
+  position: relative;
+  &__dune-image {
+    height: 95vh;
+    position: relative;
+    top:0;
+    left: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+    background-image: $hero-gradient,
+      url("../img/hero-section-dunes_skjoic_c_scale,w_200.jpg");
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+
+    @media only screen and (min-width: 27.25em){
+      background-image: $hero-gradient,
+      url("../img/hero-section-dunes_skjoic_c_scale,w_436.jpg");
+    }
+    @media only screen and (min-width: 37.12em){
+      background-image: $hero-gradient,
+      url("../img/hero-section-dunes_skjoic_c_scale,w_594.jpg");
+    }
+    @media only screen and (min-width: 46.2em){
+      background-image: $hero-gradient,
+      url("../img/hero-section-dunes_skjoic_c_scale,w_739.jpg");
+    }
+    @media only screen and (min-width: 52.9em){
+      background-image: $hero-gradient,
+      url("../img/hero-section-dunes_skjoic_c_scale,w_846.jpg");
+      clip-path: $clip-path-big-screen;
+    }
+    @media only screen and (min-width: 59em){
+      background-image: $hero-gradient,
+      url("../img/hero-section-dunes_skjoic_c_scale,w_945.jpg");
+    }
+    @media only screen and (min-width: 64.6em){
+      background-image: $hero-gradient,
+      url("../img/hero-section-dunes_skjoic_c_scale,w_1033.jpg");
+    }
+    @media only screen and (min-width: 69.4em){
+      background-image: $hero-gradient,
+      url("../img/hero-section-dunes_skjoic_c_scale,w_1111.jpg");
+    }
+    @media only screen and (min-width: 74.9em){
+      background-image: $hero-gradient,
+      url("../img/hero-section-dunes_skjoic_c_scale,w_1198.jpg");
+    }
+    @media only screen and (min-width: 79.7em){
+      background-image: $hero-gradient,
+      url("../img/hero-section-dunes_skjoic_c_scale,w_1275.jpg");
+    }
+    @media only screen and (min-width: 83.7em){
+      background-image: $hero-gradient,
+      url("../img/hero-section-dunes_skjoic_c_scale,w_1339.jpg");
+    }
+    @media only screen and (min-width: 87.4em){
+      background-image: $hero-gradient,
+      url("../img/hero-section-dunes_skjoic_c_scale,w_1398.jpg");
+    }
+    @media only screen and (min-width: 87.5em){
+      background-image: $hero-gradient,
+      url("../img/hero-section-dunes_skjoic_c_scale,w_1400.jpg");
+    }
+  }
+  &__code-image {
+    height: 95vh;
+    position: relative;
+    top:0;
+    left:0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/hero-section-dunes_skjoic_c_scale,w_200.jpg");
+    transform: translateY(-100%);
+    @media only screen and (min-width: 27.25em){
+      background-image:
+      url("../img/hero-section-dunes_skjoic_c_scale,w_436.jpg");
+    }
+    @media only screen and (min-width: 37.12em){
+      background-image:
+      url("../img/hero-section-dunes_skjoic_c_scale,w_594.jpg");
+    }
+    @media only screen and (min-width: 46.2em){
+      background-image:
+      url("../img/hero-section-dunes_skjoic_c_scale,w_739.jpg");
+    }
+    @media only screen and (min-width: 52.9em){
+      background-image:
+      url("../img/hero-section-dunes_skjoic_c_scale,w_846.jpg");
+    }
+    @media only screen and (min-width: 59em){
+      background-image:
+      url("../img/hero-section-dunes_skjoic_c_scale,w_945.jpg");
+    }
+    @media only screen and (min-width: 64.6em){
+      background-image:
+      url("../img/hero-section-dunes_skjoic_c_scale,w_1033.jpg");
+    }
+    @media only screen and (min-width: 69.4em){
+      background-image:
+      url("../img/hero-section-dunes_skjoic_c_scale,w_1111.jpg");
+    }
+    @media only screen and (min-width: 74.9em){
+      background-image:
+      url("../img/hero-section-dunes_skjoic_c_scale,w_1198.jpg");
+    }
+    @media only screen and (min-width: 79.7em){
+      background-image:
+      url("../img/hero-section-dunes_skjoic_c_scale,w_1275.jpg");
+    }
+    @media only screen and (min-width: 83.7em){
+      background-image:
+      url("../img/hero-section-dunes_skjoic_c_scale,w_1339.jpg");
+    }
+    @media only screen and (min-width: 87.4em){
+      background-image:
+      url("../img/hero-section-dunes_skjoic_c_scale,w_1398.jpg");
+    }
+    @media only screen and (min-width: 87.5em){
+      background-image:
+      url("../img/hero-section-dunes_skjoic_c_scale,w_1400.jpg");
+    }
+  }
+}
+
